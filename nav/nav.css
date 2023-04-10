@@ -39,6 +39,7 @@ a:link:active {
 a:link:visited {
 
 }
-@mdedia {
+@media screen and (min-width: 320px){
+
 
 }
