@@ -56,11 +56,13 @@ a:link {
 }
 @media screen and (max-width: 480px) {
     .menu {
-        display: block;
+        display: flex;
     }
     nav ul li {
-        display: flex;
-        flex-direction: column;
+        display: block;
+        border-top:rgb(4, 4, 4) solid;
+        width: 100%;
+     
     }
 
 }
