@@ -39,7 +39,9 @@ a:link:active {
 a:link:visited {
 
 }
-@media screen and (min-width: 320px){
-
+@media screen and (max-width: 320px){
+.linklist {
+    flex-direction: column;
+}
 
 }
