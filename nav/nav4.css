@@ -10,13 +10,13 @@
 .nav-links a {
     color: white;
 }
-.logo {
+/* .logo {
 
-}
+} */
 .menu {
     display: flex;
     gap: 1em;
-    font-size: ;
+    /* font-size: ; */
     list-style: none;
 }
 .menu li:hover {
@@ -70,7 +70,7 @@ input[type=checkbox] {
     }
     .menu li:hover {
         display: inline-block;
-        background-color: ;
+        /* background-color: ; */
         transition: .3s ease-in;
     }
     .menu li + li {
