@@ -9,12 +9,15 @@
     cursor: pointer;
     border: none;
     transition-duration: .3s;
+    display: inline-block;
   
 }
 .btndefault:hover, .hover {
     background-color: rgb(255, 68, 117);
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-  
+    transition: .03s ease-in-out;
+   
+
 
 
 }
@@ -24,4 +27,8 @@
     color: rgb(5, 41, 244);
     box-shadow: rgb(168, 168, 168) 2px 2px 2px;
    
+}
+.btn.disabled {
+    background-color: gray;
+    color: rgb(97, 93, 93);
 }
