@@ -1,5 +1,14 @@
-.card{
-    background-color: red;
+.card {
+    display: flex;
+    border: black solid;
     height: 200px;
-    width: 50px;
+    width: 100px;
+    padding: 40px;
+    margin: 30px;
+    border-radius: 10px;
+}
+.crd img {
+    background-color: aquamarine;
+    height: 90px;
+    width: 100;
 }
