@@ -52,4 +52,82 @@ table {
   border-spacing: 0;
 }
 
-/*# sourceMappingURL=style.css.map */
+/* .card {
+  display: block;
+    border: black solid;
+    /* height: 240px; */
+/* width: 200px; */
+/* padding: 40px; */
+/* margin: 30px;
+    border-radius: 10px;
+
+} */
+.crdimg {
+  background-color: aquamarine;
+  height: 30px;
+  width: 30px;
+  display: block;
+  margin-top: 25px;
+  padding: 40px;
+  border-radius: 100%;
+}
+
+.crd1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 300px;
+  width: 240px;
+  margin: 30px;
+  border-radius: 10px;
+  border: 1px black solid;
+}
+
+.crdimg2 {
+  height: 250px;
+  padding-top: none;
+  margin-top: none;
+  background-color: red;
+  border-radius: 8px;
+}
+
+.crd2 {
+  height: 400px;
+  width: 300px;
+  border: black solid;
+  margin: 40px;
+  border-radius: 10px;
+}
+
+.crd3 {
+  border: solid black 1px;
+  width: 200px;
+  height: 400px;
+  margin: 40px;
+  border-radius: 10px;
+}
+
+.crdimg3 {
+  background-color: aquamarine;
+  height: 250px;
+  width: 120px;
+  padding: 40px;
+  border-radius: 8px;
+}
+
+.crdimg4 {
+  height: 250px;
+  background-color: aquamarine;
+  width: 400px;
+  border-radius: 8px;
+}
+
+.crd4 {
+  width: 600px;
+  height: 250px;
+  border: solid black 1px;
+  margin-left: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  border-radius: 10px;
+}
