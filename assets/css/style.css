@@ -63,7 +63,7 @@ table {
 
 } */
 .crdimg {
-  background-color: aquamarine;
+  background-color: rgb(23, 11, 248);
   height: 30px;
   width: 30px;
   display: block;
@@ -87,7 +87,7 @@ table {
   height: 250px;
   padding-top: none;
   margin-top: none;
-  background-color: red;
+  background-color: rgb(23, 11, 248);
   border-radius: 8px;
 }
 
@@ -108,7 +108,7 @@ table {
 }
 
 .crdimg3 {
-  background-color: aquamarine;
+  background-color: rgb(23, 11, 248);
   height: 250px;
   width: 120px;
   padding: 40px;
@@ -117,7 +117,7 @@ table {
 
 .crdimg4 {
   height: 250px;
-  background-color: aquamarine;
+  background-color: rgb(23, 11, 248);
   width: 400px;
   border-radius: 8px;
 }
@@ -131,3 +131,5 @@ table {
   display: flex;
   border-radius: 10px;
 }
+
+/*# sourceMappingURL=style.css.map */
