@@ -52,16 +52,6 @@ table {
   border-spacing: 0;
 }
 
-/* .card {
-  display: block;
-    border: black solid;
-    /* height: 240px; */
-/* width: 200px; */
-/* padding: 40px; */
-/* margin: 30px;
-    border-radius: 10px;
-
-} */
 .crdimg {
   background-color: rgb(23, 11, 248);
   height: 30px;
@@ -78,7 +68,6 @@ table {
   align-items: center;
   height: 300px;
   width: 240px;
-  margin: 30px;
   border-radius: 10px;
   border: 1px black solid;
 }
@@ -130,6 +119,12 @@ table {
   margin-bottom: 40px;
   display: flex;
   border-radius: 10px;
+}
+
+.crdtxt {
+  display: flex;
+  padding: 5px;
+  flex-direction: column;
 }
 
 /*# sourceMappingURL=style.css.map */
