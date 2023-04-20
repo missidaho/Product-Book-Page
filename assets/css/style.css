@@ -52,79 +52,76 @@ table {
   border-spacing: 0;
 }
 
-.crdimg {
+.crd {
+  border-radius: 10px;
+  border: 0.5px black solid;
+  margin: 30px;
+}
+.crd .crdimg {
   background-color: rgb(23, 11, 248);
-  height: 30px;
-  width: 30px;
-  display: block;
+}
+
+.crdimg1 {
+  height: 50px;
+  width: 50px;
   margin-top: 25px;
   padding: 40px;
   border-radius: 100%;
+  align-items: center;
 }
 
 .crd1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 300px;
+  height: 350px;
   width: 240px;
-  border-radius: 10px;
-  border: 1px black solid;
+  margin: 30px;
 }
 
 .crdimg2 {
-  height: 250px;
+  height: 230px;
   padding-top: none;
   margin-top: none;
-  background-color: rgb(23, 11, 248);
   border-radius: 8px;
+  width: 240px;
 }
 
 .crd2 {
   height: 400px;
   width: 300px;
-  border: black solid;
   margin: 40px;
-  border-radius: 10px;
 }
 
 .crd3 {
-  border: solid black 1px;
   width: 200px;
-  height: 400px;
+  height: fit-content;
   margin: 40px;
-  border-radius: 10px;
 }
 
 .crdimg3 {
-  background-color: rgb(23, 11, 248);
-  height: 250px;
-  width: 120px;
-  padding: 40px;
+  height: 300px;
+  width: 200px;
   border-radius: 8px;
 }
 
 .crdimg4 {
   height: 250px;
-  background-color: rgb(23, 11, 248);
   width: 400px;
   border-radius: 8px;
 }
 
 .crd4 {
-  width: 600px;
+  width: fit-content;
   height: 250px;
-  border: solid black 1px;
-  margin-left: 40px;
-  margin-bottom: 40px;
-  display: flex;
-  border-radius: 10px;
+  display: block;
 }
 
 .crdtxt {
   display: flex;
-  padding: 5px;
+  padding: 10px;
   flex-direction: column;
+  word-wrap: normal;
 }
 
 /*# sourceMappingURL=style.css.map */
