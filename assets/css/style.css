@@ -125,7 +125,13 @@ table {
 }
 
 .hero img {
-  width: 100px;
+  background-image: url(/pics/hero.jpg);
+  width: 100%;
+}
+
+.herotext {
+  color: antiquewhite;
+  transform: translate(-50%);
 }
 
 /*# sourceMappingURL=style.css.map */
