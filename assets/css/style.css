@@ -58,6 +58,10 @@ table {
   margin: 30px;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
 }
+.crd .crdimg {
+  background-color: rgb(23, 11, 248);
+}
+
 .crdimg1 {
   height: 100px;
   width: 100px;
@@ -102,11 +106,15 @@ table {
   height: 300px;
   width: 200px;
   border-radius: 8px;
+  overflow: hidden;
+  border-radius: 8px;
 }
 
 .crdimg4 {
-  width: 400px;
+  height: 60%;
+  width: auto;
   border-radius: 8px;
+  overflow: hidden;
 }
 
 .crd4 {
@@ -127,6 +135,8 @@ table {
 }
 .crdtxtcrdtext4 {
   padding: 0;
+  box-sizing: border-box;
+  width: 200px;
 }
 
 .social_media_post {
@@ -135,13 +145,46 @@ table {
 }
 
 .crdimg4 {
-  width: max-content;
-  height: 100px;
+  height: 50%;
+  width: auto;
+  overflow: hidden;
 }
 
 .crd4 {
   width: fit-content;
   height: auto;
+}
+
+.crdtext5 {
+  justify-content: center;
+  align-content: center;
+  align-self: center;
+  display: flex;
+  word-wrap: normal;
+  margin: 10px;
+  transform: translate(0%, -500%);
+  position: relative;
+  background-color: rgba(212, 223, 233, 0.5);
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.crdimg5 {
+  background-size: cover;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.crd5 {
+  height: min-content;
+  width: 200px;
+  padding-bottom: none;
+}
+
+.skillcards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .hero-img {

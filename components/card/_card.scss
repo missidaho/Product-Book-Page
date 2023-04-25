@@ -3,7 +3,7 @@ $background-color_2: rgb(6, 134, 213);
 
 .crd {
 	.crdimg {
-		// background-color: $background-color_1;
+		background-color: $background-color_1;
 	}
 
 	border-radius: 10px;
@@ -48,24 +48,29 @@ $background-color_2: rgb(6, 134, 213);
 	width: 300px;
 	margin: 40px;
 
+
 }
 
 .crd3 {
 	width: 200px;
 	height: fit-content;
 	margin: 40px;
+
 }
 
 .crdimg3 {
 	height: 300px;
 	width: 200px;
 	border-radius: 8px;
+	overflow: hidden;
+	border-radius: 8px;
 }
 
 .crdimg4 {
-	// height: 250px;
-	width: 400px;
+	height: 60%;
+	width: auto;
 	border-radius: 8px;
+	overflow: hidden;
 }
 
 .crd4 {
@@ -85,6 +90,8 @@ $background-color_2: rgb(6, 134, 213);
 	}
 	&crdtext4 {
 		padding: 0;
+		box-sizing: border-box;
+		width: 200px;
 	}
 
 
@@ -95,10 +102,46 @@ $background-color_2: rgb(6, 134, 213);
 	justify-content: center;
 }
 .crdimg4 {
-	width: max-content;
-	height: 100px;
+	// width: 25em;
+	height: 50%;
+	width: auto;
+	overflow: hidden;
+	
 }
 .crd4 {
 	width: fit-content;
 	height: auto;
+	
+}
+.crdtext5 {
+	justify-content: center;
+	align-content: center;
+	align-self: center;
+	display: flex;
+	word-wrap: normal;
+	margin: 10px;
+	transform: translate( 0%, -500%);
+	position: relative;
+	background-color: rgb(212, 223, 233, .5);
+	padding: 5px;
+	border-radius: 10px;
+
+}
+.crdimg5 {
+	background-size: cover;
+	overflow: hidden;
+	border-radius: 8px;
+
+	
+}
+.crd5 {
+	height: min-content;
+	width: 200px;
+	padding-bottom: none;
+}
+.skillcards {
+    display: flex;
+	align-items: center;
+	justify-content: center;
+
 }
