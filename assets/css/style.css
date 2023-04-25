@@ -56,27 +56,26 @@ table {
   border-radius: 10px;
   border: 0.5px black solid;
   margin: 30px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
 }
-.crd .crdimg {
-  background-color: rgb(23, 11, 248);
-}
-
 .crdimg1 {
-  height: 50px;
-  width: 50px;
+  height: 100px;
+  width: 100px;
   margin-top: 25px;
-  padding: 40px;
+  padding: 10px;
   border-radius: 100%;
   align-items: center;
+  overflow: hidden;
 }
 
 .crd1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 350px;
+  height: auto;
   width: 240px;
   margin: 30px;
+  border: solid 0.5px rgba(220, 220, 220, 0.5);
 }
 
 .crdimg2 {
@@ -106,7 +105,6 @@ table {
 }
 
 .crdimg4 {
-  height: 250px;
   width: 400px;
   border-radius: 8px;
 }
@@ -114,14 +112,36 @@ table {
 .crd4 {
   width: fit-content;
   height: 250px;
-  display: block;
+  display: flex;
+  flex-direction: row;
 }
 
 .crdtxt {
   display: flex;
-  padding: 10px;
+  padding: 20px;
   flex-direction: column;
   word-wrap: normal;
+}
+.crdtxt.cardtext1 {
+  align-items: center;
+}
+.crdtxtcrdtext4 {
+  padding: 0;
+}
+
+.social_media_post {
+  display: flex;
+  justify-content: center;
+}
+
+.crdimg4 {
+  width: max-content;
+  height: 100px;
+}
+
+.crd4 {
+  width: fit-content;
+  height: auto;
 }
 
 .hero-img {
@@ -129,12 +149,12 @@ table {
   background-size: cover;
   width: 100vw;
   min-height: 60vh;
-  position: absolute 0;
+  z-index: 0;
 }
 
 .hero-text {
   color: rgb(17, 16, 16);
-  transform: translate(50px, -400px);
+  transform: translate(50px, -300px);
   box-sizing: border-box;
   margin-left: 10px;
   width: 40%;
