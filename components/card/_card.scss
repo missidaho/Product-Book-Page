@@ -1,0 +1,81 @@
+$background-color_1: rgb(23, 11, 248);
+$background-color_2: rgb(6, 134, 213);
+
+.crd {
+	.crdimg {
+		background-color: $background-color_1;
+	}
+
+	border-radius: 10px;
+	border: .5px black solid;
+	margin: 30px;
+
+}
+
+.crdimg1 {
+	height: 50px;
+	width: 50px;
+	margin-top: 25px;
+	padding: 40px;
+	border-radius: 100%;
+	align-items: center;
+
+}
+
+.crd1 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 350px;
+	width: 240px;
+	margin: 30px;
+}
+.crdimg2 {
+	height: 230px;
+	padding-top: none;
+	margin-top: none;
+	border-radius: 8px;
+	width: 240px;
+}
+
+.crd2 {
+	height: 400px;
+	width: 300px;
+	margin: 40px;
+
+}
+
+.crd3 {
+	width: 200px;
+	height: fit-content;
+	margin: 40px;
+}
+
+.crdimg3 {
+	height: 300px;
+	width: 200px;
+	border-radius: 8px;
+}
+
+.crdimg4 {
+	// height: 250px;
+	width: 400px;
+	border-radius: 8px;
+}
+
+.crd4 {
+	width: fit-content;
+	height: 250px;
+	display: flex;
+	flex-direction: row;
+}
+
+.crdtxt {
+	display: flex;
+	padding: 10px;
+	flex-direction: row;
+	word-wrap: normal;
+
+
+
+}

@@ -129,11 +129,12 @@ table {
   background-size: cover;
   width: 100vw;
   min-height: 60vh;
+  position: absolute 0;
 }
 
 .hero-text {
   color: rgb(17, 16, 16);
-  transform: translate(50px, -450px);
+  transform: translate(50px, -400px);
   box-sizing: border-box;
   margin-left: 10px;
   width: 40%;

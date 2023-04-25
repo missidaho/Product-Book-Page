@@ -2,16 +2,21 @@
     background-image: url('/pics/hero.jpg');
     background-size: cover;
     width: 100vw;
-    min-height: 60vh;   
+    min-height: 60vh;  
+    // position: absolute;
+    z-index: 0;
 
 }
 .hero-text {
     color: rgb(17, 16, 16);
-    transform: translate(50px, -450px);
+    transform: translate(50px, -400px);
     box-sizing: border-box;
     margin-left: 10px;
     width: 40%;
     font-size: larger;
     padding: 5px;
     background-color: rgba(246, 249, 249, 0.5);
+    &.test {
+        
+    }
 }
