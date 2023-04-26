@@ -10,6 +10,7 @@
     border: none;
     transition-duration: .3s;
     display: inline-block;
+    margin-left: 5px;
   
 }
 .btndefault:hover, .hover {

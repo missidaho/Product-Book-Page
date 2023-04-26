@@ -5,7 +5,7 @@
     "main": "index.js",
     "scripts": {
         "dev": "sass --watch --update --style=expanded src/scss:assets/css --watch components/hero --watch components/card",
-        "build": "sass --no-source-map --style=compressed src/scss:assets/css --watch components/footer"
+        "build": "sass --no-source-map --style=compressed src/scss:assets/css --watch components/footer --watch components/graphic page"
     },
     "author": "Adam",
     "license": "ISC",

@@ -1,15 +1,16 @@
-$background-color_1: rgb(23, 11, 248);
+$background-color_1: rgb(255, 255, 255);
 $background-color_2: rgb(6, 134, 213);
 
 .crd {
 	.crdimg {
 		background-color: $background-color_1;
+		overflow: hidden;
 	}
 
 	border-radius: 10px;
-	border: .5px black solid;
+	// border: .5px black solid;
 	margin: 30px;
-	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2) ;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
 
 }
 
@@ -21,7 +22,7 @@ $background-color_2: rgb(6, 134, 213);
 	border-radius: 100%;
 	align-items: center;
 	overflow: hidden;
-	
+
 
 }
 
@@ -33,8 +34,9 @@ $background-color_2: rgb(6, 134, 213);
 	width: 240px;
 	margin: 30px;
 	border: solid .5px rgb(220, 220, 220, .5);
-	
+
 }
+
 .crdimg2 {
 	height: 230px;
 	padding-top: none;
@@ -45,8 +47,10 @@ $background-color_2: rgb(6, 134, 213);
 
 .crd2 {
 	height: 400px;
-	width: 300px;
-	margin: 40px;
+	width: fit-content;
+	// margin: 40px;
+	background-color: rgb(239, 247, 255);
+	color: navy;
 
 
 }
@@ -55,6 +59,7 @@ $background-color_2: rgb(6, 134, 213);
 	width: 200px;
 	height: fit-content;
 	margin: 40px;
+	background-color: $background-color_1;
 
 }
 
@@ -85,10 +90,12 @@ $background-color_2: rgb(6, 134, 213);
 	padding: 20px;
 	flex-direction: column;
 	word-wrap: normal;
+
 	&.cardtext1 {
 		align-items: center;
 	}
-	&crdtext4 {
+
+	&.crdtext4 {
 		padding: 0;
 		box-sizing: border-box;
 		width: 200px;
@@ -97,22 +104,27 @@ $background-color_2: rgb(6, 134, 213);
 
 
 }
+
 .social_media_post {
-    display: flex;
+	display: flex;
 	justify-content: center;
 }
+
 .crdimg4 {
 	// width: 25em;
 	height: 50%;
-	width: auto;
+	width: 100%;
 	overflow: hidden;
-	
+
+
 }
+
 .crd4 {
 	width: fit-content;
 	height: auto;
-	
+
 }
+
 .crdtext5 {
 	justify-content: center;
 	align-content: center;
@@ -120,28 +132,75 @@ $background-color_2: rgb(6, 134, 213);
 	display: flex;
 	word-wrap: normal;
 	margin: 10px;
-	transform: translate( 0%, -500%);
+	transform: translate(0%, -500%);
 	position: relative;
-	background-color: rgb(212, 223, 233, .5);
+	// background-color: rgb(212, 223, 233, .5);
 	padding: 5px;
 	border-radius: 10px;
 
 }
+
 .crdimg5 {
 	background-size: cover;
 	overflow: hidden;
 	border-radius: 8px;
 
-	
+
 }
+
 .crd5 {
 	height: min-content;
 	width: 200px;
 	padding-bottom: none;
 }
+
 .skillcards {
-    display: flex;
+	display: flex;
 	align-items: center;
 	justify-content: center;
 
+
+}
+
+.skillsset {
+	display: flex;
+	flex-direction: column;
+	background-color: navy;
+	align-items: center;
+	padding: 10px;
+	justify-content: center;
+}
+
+.crd6 {
+	display: flex;
+	margin-top: none;
+	padding-top: none;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	justify-content: flex-start;
+	height: min-content;
+}
+
+.crdimg6 {
+	flex-basis: 50%;
+	max-width: 50%;
+	height: auto;
+	margin: 0;
+	// padding-bottom: 0;
+}
+
+.crd7 {
+	display: flex;
+	margin-top: none;
+	padding-top: none;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: flex-start;
+	height: fit-content;
+	// background-color: aquamarine;
+	width: 450px;
+}
+.crdtxt7 {
+	padding: none;
+	align-self: start;
 }
