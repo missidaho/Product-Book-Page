@@ -248,5 +248,9 @@ table {
   padding: 5px;
   background-color: rgba(246, 249, 249, 0.5);
 }
+.graphicspgwrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
 
 /*# sourceMappingURL=style.css.map */
