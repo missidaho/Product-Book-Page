@@ -1,7 +1,7 @@
 @import "reset";
-@import "../../components/card/_card.scss";
-@import "../../components/hero/hero.scss";
-@import "../../components/randomcss.scss";
-@import "../../components/footer/footer";
-@import "../../websitehomepgs/graphic page/_graphics.scss"
-
+@import "./componentssass/card";
+@import "./componentssass/footer";
+@import "./componentssass/graphics";
+@import "./componentssass/hero";
+@import "./componentssass/nav";
+@import "./componentssass/button";

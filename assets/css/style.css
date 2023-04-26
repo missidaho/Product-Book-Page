@@ -230,8 +230,13 @@ table {
   align-self: start;
 }
 
+.graphicspgwrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .hero-img {
-  background-image: url("../../pics/homepage/hero.jpg");
+  background-image: url("../../../assets/pics/homepage/hero.jpg");
   background-size: cover;
   width: 100vw;
   min-height: 60vh;
@@ -248,9 +253,156 @@ table {
   padding: 5px;
   background-color: rgba(246, 249, 249, 0.5);
 }
-.graphicspgwrapper {
+.navbar {
   display: flex;
-  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  background-color: rgba(250, 250, 252, 0.6);
+  /* color: rgb(28, 99, 157); */
+  /* position: absolute; */
+  z-index: 1;
+  position: fixed;
+  width: 100vw;
+}
+
+.nav-links a {
+  color: rgb(37, 32, 77);
+  text-decoration: none;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.menu {
+  display: flex;
+  gap: 1em;
+  /* font-size: ; */
+  list-style: none;
+  text-decoration: none;
+  padding-right: 20px;
+}
+
+.menu li:hover {
+  transition: 0.3s ease;
+  background-color: rgba(228, 237, 241, 0.4);
+  border-radius: 10px;
+}
+
+.menu li {
+  padding: 10px 14px;
+  text-decoration: none;
+}
+
+.services {
+  position: relative;
+}
+
+.dropdown {
+  position: absolute;
+  display: none;
+  padding: 1em 0;
+  border-radius: 8px;
+  top: 35px;
+  background-color: rgba(228, 237, 241, 0.4);
+}
+
+.dropdown li {
+  width: 8em;
+  text-align: center;
+  /* padding: .5px;
+  padding-right: 25px; */
+}
+
+.dropdown li + li {
+  margin-top: 10px;
+}
+
+.dropdown li:hover {
+  background-color: rgb(185, 212, 244);
+  display: block;
+}
+
+.services:hover .dropdown {
+  display: block;
+}
+
+input[type=checkbox] {
+  display: none;
+}
+
+.hamburger {
+  display: none;
+  font-size: 25px;
+  user-select: none;
+  padding-right: 20px;
+}
+
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+    position: absolute;
+    background-color: rgb(139, 209, 234);
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding: 16px 0;
+  }
+  .menu li:hover {
+    display: inline-block;
+    /* background-color: ; */
+    transition: 0.3s ease-in;
+  }
+  .menu li + li {
+    margin-top: 12px;
+  }
+  input[type=checkbox]:checked ~ .menu {
+    display: block;
+  }
+  .hamburger {
+    display: block;
+  }
+  .dropdown {
+    left: 50%;
+    top: 30px;
+    transform: translateX(35%);
+  }
+  .dropdown li:hover {
+    background-color: rgb(156, 195, 243);
+  }
+}
+.btndefault {
+  background-color: rgb(255, 0, 72);
+  height: 50px;
+  width: 95px;
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+  margin: 20px;
+  cursor: pointer;
+  border: none;
+  transition-duration: 0.3s;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.btndefault:hover, .hover {
+  background-color: rgb(255, 68, 117);
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.03s ease-in-out;
+}
+
+.btndefault:active,
+.btnactive {
+  background-color: rgb(255, 0, 111);
+  color: rgb(5, 41, 244);
+  box-shadow: rgb(168, 168, 168) 2px 2px 2px;
+}
+
+.btn.disabled {
+  background-color: gray;
+  color: rgb(97, 93, 93);
 }
 
 /*# sourceMappingURL=style.css.map */
