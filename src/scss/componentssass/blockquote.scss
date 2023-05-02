@@ -1,3 +1,13 @@
 .blockqoute {
     display: flex;
+    flex-direction: row;
+    margin: 5px;
+    padding: 10px;
+}
+.quoteblocks {
+    // font-family: ;
+    font-size: 200%;
+    display: block;
+    color: aquamarine;
+    
 }

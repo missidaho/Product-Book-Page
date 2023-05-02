@@ -1,5 +1,14 @@
 .blockqoute {
   display: flex;
+  flex-direction: row;
+  margin: 5px;
+  padding: 10px;
+}
+
+.quoteblocks {
+  font-size: 200%;
+  display: block;
+  color: aquamarine;
 }
 
 /*# sourceMappingURL=blockquote.css.map */
