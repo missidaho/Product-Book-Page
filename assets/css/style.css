@@ -434,6 +434,12 @@ input[type=checkbox] {
   color: rgb(97, 93, 93);
 }
 
+@font-face {
+  font-family: "Custom Font";
+  src: url(""), url("path/to/custom-font.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 .alertbanner {
   background-color: lavenderblush;
   display: block;
@@ -456,6 +462,7 @@ input[type=checkbox] {
   margin: 10px;
   object-fit: cover;
   transition: transform 0.3s ease-in-out;
+  border-radius: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
