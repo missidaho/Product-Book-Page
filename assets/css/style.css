@@ -269,6 +269,7 @@ table {
   min-height: 60vh;
   z-index: 0;
   padding-bottom: none;
+  overflow: hidden;
 }
 
 .hero-text {
@@ -442,10 +443,19 @@ input[type=checkbox] {
   text-align: center;
 }
 
-.gallerydiv {
-  display: block;
-  border: 1px;
-  border-radius: 10px;
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery img {
+  width: 300px;
+  height: 400px;
+  margin: 10px;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
 }
 
 /*# sourceMappingURL=style.css.map */
