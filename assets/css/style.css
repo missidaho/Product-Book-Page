@@ -230,6 +230,21 @@ table {
   align-self: start;
 }
 
+.footerdev {
+  background-color: rgb(200, 234, 234);
+  display: block;
+  width: 100%;
+  height: 150px;
+}
+
+.footerdev2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 5px;
+}
+
 .graphicspgwrapper {
   display: flex;
   flex-wrap: wrap;
@@ -241,6 +256,7 @@ table {
   width: 100vw;
   min-height: 60vh;
   z-index: 0;
+  padding-bottom: none;
 }
 
 .hero-text {
@@ -403,6 +419,15 @@ input[type=checkbox] {
 .btn.disabled {
   background-color: gray;
   color: rgb(97, 93, 93);
+}
+
+.alertbanner {
+  background-color: lavenderblush;
+  display: block;
+  display: block;
+  padding: 10px;
+  width: 100%; /* Change this value to adjust the width of the centered element */
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
