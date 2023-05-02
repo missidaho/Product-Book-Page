@@ -234,7 +234,7 @@ table {
   background-color: rgb(200, 234, 234);
   display: block;
   width: 100%;
-  height: 150px;
+  height: 200px;
 }
 
 .footerdev2 {
@@ -242,6 +242,18 @@ table {
   justify-content: center;
   align-items: center;
   align-content: center;
+  padding: 5px;
+}
+
+.footericons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 15px;
+}
+
+.ficon {
   padding: 5px;
 }
 
@@ -428,6 +440,12 @@ input[type=checkbox] {
   padding: 10px;
   width: 100%; /* Change this value to adjust the width of the centered element */
   text-align: center;
+}
+
+.gallerydiv {
+  display: block;
+  border: 1px;
+  border-radius: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
