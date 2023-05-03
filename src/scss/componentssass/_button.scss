@@ -1,5 +1,5 @@
 .btndefault {
-    background-color: rgb(255, 0, 72);
+    background-color: rgb(130, 60, 19);
     height: 50px;
     width: 95px;
     border-radius: 10px;
@@ -14,7 +14,7 @@
   
 }
 .btndefault:hover, .hover {
-    background-color: rgb(255, 68, 117);
+    background-color: rgb(196, 82, 15);
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     transition: .03s ease-in-out;
    
@@ -24,8 +24,8 @@
 }
 .btndefault:active, 
 .btnactive {
-    background-color: rgb(255, 0, 111);
-    color: rgb(5, 41, 244);
+    background-color: rgb(190, 69, 13);
+    color: rgb(155, 157, 165);
     box-shadow: rgb(168, 168, 168) 2px 2px 2px;
    
 }

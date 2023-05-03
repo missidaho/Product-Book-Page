@@ -13,3 +13,17 @@
 @import "./componentssass/icons";
 @import "./componentssass/images";
 @import "./componentssass/blockquote.scss";
+
+h2 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 3px;
+}
+h1 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-size: larger;
+    padding: 2px;
+}
+p {
+    padding-top: 5px;
+}

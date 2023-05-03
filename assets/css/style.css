@@ -58,7 +58,7 @@ table {
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
 }
 .crd .crdimg {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 254, 254);
   overflow: hidden;
 }
 
@@ -101,7 +101,7 @@ table {
   width: 200px;
   height: fit-content;
   margin: 40px;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 254, 254);
 }
 
 .crdimg3 {
@@ -231,7 +231,7 @@ table {
 }
 
 .footerdev {
-  background-color: rgb(200, 234, 234);
+  background-color: rgb(142, 66, 16);
   display: block;
   width: 100%;
   height: 200px;
@@ -263,7 +263,6 @@ table {
 }
 
 .hero-img {
-  background-image: url("../../../assets/pics/homepage/hero.jpg");
   background-size: cover;
   width: 100vw;
   min-height: 60vh;
@@ -279,8 +278,9 @@ table {
   margin-left: 10px;
   width: 40%;
   font-size: larger;
-  padding: 5px;
+  padding: 10px;
   background-color: rgba(246, 249, 249, 0.5);
+  border-radius: 10px;
 }
 .navbar {
   display: flex;
@@ -402,7 +402,7 @@ input[type=checkbox] {
   }
 }
 .btndefault {
-  background-color: rgb(255, 0, 72);
+  background-color: rgb(130, 60, 19);
   height: 50px;
   width: 95px;
   border-radius: 10px;
@@ -417,15 +417,15 @@ input[type=checkbox] {
 }
 
 .btndefault:hover, .hover {
-  background-color: rgb(255, 68, 117);
+  background-color: rgb(196, 82, 15);
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
   transition: 0.03s ease-in-out;
 }
 
 .btndefault:active,
 .btnactive {
-  background-color: rgb(255, 0, 111);
-  color: rgb(5, 41, 244);
+  background-color: rgb(190, 69, 13);
+  color: rgb(155, 157, 165);
   box-shadow: rgb(168, 168, 168) 2px 2px 2px;
 }
 
@@ -476,6 +476,22 @@ input[type=checkbox] {
   font-size: 200%;
   display: block;
   color: aquamarine;
+}
+
+h2 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding: 3px;
+}
+
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-style: italic;
+  font-size: larger;
+  padding: 2px;
+}
+
+p {
+  padding-top: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */

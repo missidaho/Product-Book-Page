@@ -1,0 +1,85 @@
+.breadcrumb {
+    padding: 20px 15px;
+    background-color: none;
+  }
+  .breadcrumb ul {
+    padding: 0;
+    margin: 0;
+  }
+  .breadcrumb ul li {
+    list-style: none;
+    display: inline;
+    text-transform: uppercase;
+    font-size: 1rem;
+  }
+  .breadcrumb ul li::after {
+    content: "\27E9";
+    padding: 0 8px;
+    color: #EA4335;
+  }
+  .breadcrumb ul li:last-child:after {
+    content: "";
+  }
+  .breadcrumb ul li a {
+    color: #55160e;
+    text-decoration: none;
+    -webkit-transition: color 0.2s ease-in;
+    transition: color 0.4s ease-in;
+  }
+  .breadcrumb ul li a:hover {
+    color: #fff9f9;
+    background-color: #55160e;
+    padding: 5px;
+    border-radius: 5px;
+    
+  }
+  .breadcrumb2 {
+    background-color: #dbffe5;
+  }
+  .breadcrumb2 ul li:after {
+    content: "\27EB";
+    color: #229342;
+  }
+  .breadcrumb2 ul li:last-child:after {
+    content: "";
+  }
+  .breadcrumb3 {
+    background-color: #fff0e0;
+  }
+  .breadcrumb3 ul li:after {
+    content: "\00BB";
+    color: #fa8f1e;
+  }
+  .breadcrumb3 ul li:last-child:after {
+    content: "";
+  }
+  .breadcrumb4 {
+    background-color: #def1ff;
+  }
+  .breadcrumb4 ul li:after {
+    content: "\2192";
+    color: #07b02e;
+  }
+  .breadcrumb4 ul li:last-child:after {
+    content: "";
+  }
+  .breadcrumb5 {
+    background-color: #ffe1db;
+  }
+  .breadcrumb5 ul li:after {
+    content: "\2223";
+    color: #ff3912;
+  }
+  .breadcrumb5 ul li:last-child:after {
+    content: "";
+  }
+  .breadcrumb6 {
+    background-color: #fff3bf;
+  }
+  .breadcrumb6 ul li:after {
+    content: "\002F";
+    color: #a88903;
+  }
+  .breadcrumb6 ul li:last-child:after {
+    content: "";
+  }
